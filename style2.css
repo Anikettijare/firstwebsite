@@ -130,7 +130,7 @@ a:hover{
 
 .menu-img{
     width: 500px;
-    height: 500px;
+    height: auto;
     margin:50px 40px 40px 40px;
     float: right;
 }
