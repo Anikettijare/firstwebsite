@@ -26,6 +26,7 @@
     padding: 20px;
     margin: 0px;
     
+    
 }
 .child-box4,child-box2, child-box3{
     width:100%;
@@ -192,6 +193,10 @@ form button{
     cursor: pointer;
 }
 @media(max-width:767px) {
+    .container{
+        width:100%;
+        height: auto;
+    }
     .child-box1 ul li{
         display: none;
     }
@@ -216,6 +221,11 @@ form button{
     }   
 }
 @media (min-width:768px) and (max-width:1023px){
+    .container{
+        width:100%;
+        height: auto;
+        
+    }
     .child-box1 ul li{
         display: none;
     }
