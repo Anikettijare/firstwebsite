@@ -194,7 +194,11 @@ form button{
 }
 @media(max-width:767px) {
     .container{
-        width:100%;
+        max-width:100%;
+        height: auto;
+    }
+    .child-box1,child-box2,child-box3,child-box4,child-box5,child-box6{
+        max-width: 100%;
         height: auto;
     }
     .child-box1 ul li{
@@ -224,7 +228,10 @@ form button{
     .container{
         width:100%;
         height: auto;
-        
+    }
+    .child-box1,child-box2,child-box3,child-box4,child-box5,child-box6{
+        max-width: 100%;
+        height: auto;
     }
     .child-box1 ul li{
         display: none;
