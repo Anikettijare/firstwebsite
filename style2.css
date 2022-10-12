@@ -198,6 +198,10 @@ form button{
         display: flexbox;
         flex-wrap: wrap;
     }
+    .child-box2 img{
+        width:100%;
+        height:auto;
+    }
     .child-box3 img{
         display: none;
     }
