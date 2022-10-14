@@ -128,7 +128,7 @@ a:hover{
 
 /*CSS applied to the Child Box 4*/
 
-.menu-img{
+.menu-img img{
     width: 500px;
     height: 500px;
     margin:50px 40px 40px 40px;
@@ -192,15 +192,14 @@ form button{
     cursor: pointer;
 }
 @media(max-width:767px) {
-    .container{
-        max-width:100%;
+    .child-box2{
+        width: 100%;
         height: auto;
-        display: flexbox;
-        flex-wrap: wrap;
     }
     .child-box2 img{
         width:100%;
         height:auto;
+        padding-top: 60px;
     }
     .child-box3 img{
         display: none;
@@ -223,7 +222,8 @@ form button{
     }
     .menu-img{
         width: 500px;
-        height: 738px;
+        height: 500px;
+        margin:40px 20px 30px 50px;
     }
     form input{
         padding: 20px;
