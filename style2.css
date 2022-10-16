@@ -11,7 +11,7 @@
     width:100%;
     height: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 
@@ -25,10 +25,8 @@
     border: 1px solid white;
     padding: 20px;
     margin: 0px;
-    
-    
 }
-.child-box4,child-box2, child-box3{
+.child-box4,child-box2,child-box3{
     width:100%;
     height: auto;
     background-color: white;
@@ -127,7 +125,6 @@ a:hover{
 }
 
 /*CSS applied to the Child Box 4*/
-
 .menu-img img{
     width: 500px;
     height: 500px;
@@ -243,17 +240,44 @@ form button{
         top:323px;
         margin: 20px;
     }
+    .child-box3 img{
+        width: 576px;
+        margin-left: 117px;
+    }
     .page-content h1{
-        margin-left: 37px;
+        margin-left: 151px;
         padding: 20px;
         justify-content: center;
     }
     .page-content h5{
-        margin-left: 75px;
+        margin-left: 186px;
         margin-right: 0px;
         font-size: large;
     }
     .page-content p{
-        margin-right: 13px;
+        margin-right: 52px;
+        margin-left: 20px;
+    }
+    .page-content{
+        margin-right: 72px;
+    }
+    .menu-img img{
+        margin-right: 139px;
+    }
+    .menu-chart h1{
+        margin-left: 296px;
+    }
+}
+@media (max-width:500px){
+    .page-content{
+        max-width: 500px;
+    }
+    .menu-img{
+        width:82%;
+        height:auto;
+    }
+    .menu-img img{
+        width: 300px;
+        height: auto;
     }
 }
