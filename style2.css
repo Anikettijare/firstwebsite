@@ -26,7 +26,11 @@
     padding: 20px;
     margin: 0px;
 }
-.child-box4,child-box2,child-box3{
+.child-box2{
+    width:100%;
+    height: auto;
+}
+.child-box4,child-box3{
     width:100%;
     height: auto;
     background-color: white;
@@ -73,20 +77,24 @@
     letter-spacing: 4px;
     color: black;
     font-size: larger;
+    padding: 15px 5px 15px 5px;
 }
 a:hover{
     background-color: gainsboro;
 }
 
 /*CSS applied to the Child Box 2*/
-
+.child-box2{
+    width: 100vw;
+}
+.child-box2 img{
+    width: 100%;
+    height: auto;
+}
 .img-footer h1{
     margin-bottom: 20px;
 }
-.child-box2 img{
-    width:100%;
-    height: auto;
-}
+
 .img-footer{
     position: absolute;
     top:590px;
@@ -102,13 +110,13 @@ a:hover{
 .child-box3 img{
     width: 500px;
     height: 500px;
-    margin:40px 40px 40px 70px;
+    margin:40px 20px 40px 40px;
 }
 .page-content{
-    max-width: 650px;
+    max-width: 50%;
     float: right;
     text-align: justify;
-    margin: 50px 40px 0px 40px;
+    margin: 50px 70px 0px 30px;
 }
 .page-content h1{
     margin-left: 170px;
@@ -128,30 +136,38 @@ a:hover{
 .menu-img img{
     width: 500px;
     height: 500px;
-    margin:50px 40px 40px 40px;
+    margin:40px 100px 20px 25px;
+  
+}
+.menu-img{
     float: right;
+}
+.menu-chart{
+    width:50%;
+    height: auto;
+    float: left;
 }
 .menu-chart h1 {
     margin:60px 0px 0px 240px;
     padding-bottom: 30px;
 }
 .menu-chart h5{
-   margin-left: 60px;
+   margin-left: 30px;
    font-size: large;
 
 }
 .menu-chart p{
-    margin-left: 50px;
+    margin-left: 20px;
     color: grey;
     padding: 10px;
 }
 /*CSS applied to the child Box 5*/
 .child-box5 h1{
-    margin:60px 0px 0px 34px;
+    margin:60px 0px 0px 0px;
     padding:0px 0px 30px 30px;
 }
 .detail{
-    margin:0px 20px 0px 34px;
+    margin:0px 20px 0px 0px;
     text-align: justify;
 }
     
@@ -166,7 +182,7 @@ a:hover{
     font-size: large;
 }
 form{
-    margin-left:60px;
+    margin-left:28px;
 }
 form input{
     padding: 20px;
@@ -189,7 +205,7 @@ form button{
     cursor: pointer;
 }
 @media(max-width:767px) {
-    .child-box2{
+    .child-box2 img{
         width: 100%;
         height: auto;
     }
@@ -207,13 +223,17 @@ form button{
     .img-footer{
         display: none;
     }
+    .menu-chart h1 {
+        margin: 60px 0px 0px 101px;
+        padding-bottom: 30px;
+    }
     .page-content h1{
-        margin-left: 125px;
+        margin-left: 20px;
         padding: 20px;
         justify-content: center;
     }
     .page-content h5{
-        margin-left: 159px;
+        margin-left: 55px;
         margin-right: 0px;
         font-size: large;
     }
@@ -245,12 +265,12 @@ form button{
         margin-left: 117px;
     }
     .page-content h1{
-        margin-left: 151px;
+        margin-left: 40px;
         padding: 20px;
         justify-content: center;
     }
     .page-content h5{
-        margin-left: 186px;
+        margin-left: 76px;
         margin-right: 0px;
         font-size: large;
     }
@@ -259,7 +279,8 @@ form button{
         margin-left: 20px;
     }
     .page-content{
-        margin-right: 72px;
+        width:100%;
+        margin-right: 200px;
     }
     .menu-img img{
         margin-right: 139px;
@@ -272,12 +293,23 @@ form button{
     .page-content{
         max-width: 500px;
     }
+    .page-content h1 {
+        margin-left: 4px;
+    }
+    .page-content h5 {
+        margin-left: 38px;
+    }
     .menu-img{
-        width:82%;
+        width:100%;
         height:auto;
+        margin:0px 
     }
     .menu-img img{
         width: 300px;
+        height: auto;
+    }
+    .menu-chart {
+        width: 100%;
         height: auto;
     }
 }
