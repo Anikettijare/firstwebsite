@@ -2,20 +2,17 @@
 *{
     margin: 0px;
     padding: 0px;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
+    box-sizing: border-box;
 }
 
 /*CSS applied to the Main Container*/
 
 .container{
-    width:100%;
-    height: auto;
     display: flex;
     flex-wrap: wrap;
 }
-
-/*CSS applied to the child Boxes*/
-
+/*CSS applied to the child Box 1*/
 .child-box1{
     position: fixed;
     width: 100%;
@@ -23,36 +20,7 @@
     background-color: white;
     border: 1px solid white;
     padding: 20px;
-    margin: 0px;
 }
-.child-box2{
-    width:100%;
-    height: auto;
-}
-.child-box4,child-box3{
-    width:100%;
-    height: auto;
-    background-color: white;
-    margin: 0px;
-}
-.child-box5{
-    width:100%;
-    height: auto;
-    background-color: white;
-    padding: 20px;
-    margin: 0px;
-}
-.child-box6{
-    width:100%;
-    height: auto;
-    background-color: gainsboro;
-    padding: 20px;
-    margin: 0px;
-    text-align: center;
-}
-
-/*CSS applied to the child Box 1*/
-
 .child-box1 label,ul,li,a{
     text-decoration: none;
     list-style-type: none;
@@ -83,7 +51,8 @@ a:hover{
 
 /*CSS applied to the Child Box 2*/
 .child-box2{
-    width: 100vw;
+    width:100%;
+    height: auto;
 }
 .child-box2 img{
     width: 100%;
@@ -104,7 +73,11 @@ a:hover{
 }
 
 /*CSS applied to the Child Box 3*/
-
+.child-box3{
+    width:100%;
+    height: auto;
+    background-color: white;
+}
 .child-box3 img{
     width: 500px;
     height: 500px;
@@ -131,6 +104,11 @@ a:hover{
 }
 
 /*CSS applied to the Child Box 4*/
+.child-box4{
+    width:100%;
+    height: auto;
+    background-color: white;
+}
 .menu-img img{
     width: 500px;
     height: 500px;
@@ -160,6 +138,11 @@ a:hover{
     padding: 10px;
 }
 /*CSS applied to the child Box 5*/
+.child-box5{
+    width:100%;
+    height: auto;
+    background-color: white;
+}
 .child-box5 h1{
     margin:60px 0px 0px 0px;
     padding:0px 0px 30px 30px;
@@ -194,6 +177,14 @@ form button{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+/* CSS applied to the child box 6 */
+.child-box6{
+    width:100%;
+    height: auto;
+    background-color: gainsboro;
+    padding: 20px;
+    text-align: center;
 }
 .child-box6 p{
     padding: 10px;
@@ -246,10 +237,6 @@ form button{
     }   
 }
 @media (min-width:768px) and (max-width:1023px){
-    .container{
-        width:100%;
-        height: auto;
-    }
     .child-box1 ul li{
         display: none;
     }
@@ -295,10 +282,6 @@ form button{
     }
 }
 @media (max-width:500px){
-    .container{
-        width: 100%;
-        height: auto;
-    }
     .page-content{
         max-width: 500px;
         margin: 50px 25px 0px 30px;
