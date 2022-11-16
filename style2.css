@@ -9,10 +9,9 @@
 /*CSS applied to the Main Container*/
 
 .container{
-    width: 100%;
-    height: auto;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 /*CSS applied to the child Box 1*/
 .child-box1{
@@ -163,8 +162,6 @@ form button{
 }
 /* CSS applied to the child box 6 */
 .child-box6{
-    width:100%;
-    height: auto;
     background-color: gainsboro;
     padding: 20px;
     text-align: center;
@@ -264,32 +261,42 @@ form button{
     .child-box2 img{
         width: 100%;
     }
-    .page-content{
+    .page-content {
         max-width: 500px;
-        margin: 50px 25px 0px 30px;
+        margin: 155px 20px 0px 20px;
     }
     .page-content h1 {
-        margin-left: 12px;
+        margin-left: 100px;
         font-size: 30px;
     }
     .page-content h5{
-        margin-left: 38px;
+        margin-left: 130px;
+        padding-bottom: 20px;
     }
-    .menu-img{
-        width:100%;
-        height:auto;
-        margin:0px 
+    .menu-img {
+        width: 500px;
+        height: 500px;
+        margin: 0px;
     }
-    .menu-img img{
-        width: 300px;
-        height: auto;
-        margin-left: 35px;
-    }
-    .child-box5{
-        padding: 0px 0px 10px 0px;
+    .menu-img img {
+        width: 450px;
+        height: 450px;
+        margin: 0px 20px 0px 20px;
     }
     .menu-chart {
         width: 100%;
         height: auto;
+    }
+    .menu-chart h1 {
+        margin: 60px 0px 0px 150px;
+    }
+    .detail {
+        margin: 0px;
+    }
+    .child-box5{
+        padding: 0px 0px 10px 0px;
+    }
+    form {
+        margin-left: 60px;
     }
 }
