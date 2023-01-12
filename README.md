@@ -1,4 +1,4 @@
-# Project 1 Restaraunt Menu
+# Project 1 | Restaraunt Menu
 Using only HTML and CSS
 ## About
 In this website there is a restaurant menu card and there dishes complete information is present.
